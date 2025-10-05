@@ -15,20 +15,29 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Componentes del Plan de Mejoramiento Institucional (PMI)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Concepto y finalidad del Plan de Mejoramiento Institucional (PMI)',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Relación entre el PMI y el Proyecto Educativo Institucional (PEI)',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Estructura del PMI: diagnóstico, metas, acciones, cronograma, responsables y mecanismos de seguimiento',
+            hash: 't_1_3',
           },
         ],
       },
@@ -36,26 +45,43 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Gestiones que conforman el Plan de Mejoramiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Gestión directiva: liderazgo, visión institucional y clima escolar',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Gestión académica: currículo, procesos pedagógicos y resultados de aprendizaje',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Gestión administrativa y financiera: recursos humanos, infraestructura y presupuesto',
             hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo:
+              'Gestión de la comunidad: participación de familias, estudiantes y actores del entorno',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo:
+              'Integración de las gestiones en el proceso de mejoramiento continuo',
+            hash: 't_2_5',
           },
         ],
       },
@@ -63,20 +89,69 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Decreto 2247 de 1997',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Contextualización de la política educativa para la infancia en Colombia',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Estructura y principales apartados del Decreto 2247',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Condiciones organizativas del nivel preescolar',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Actividades rectoras de la educación inicial',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo:
+              'Definición y fundamento pedagógico de las actividades rectoras',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo:
+              'El juego como actividad rectora: características y potencial educativo',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'El arte y la literatura como ejes de formación integral',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo:
+              'Relación entre actividades rectoras y dimensiones del desarrollo infantil',
+            hash: 't_4_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.5',
+            titulo: 'Orientaciones del MEN y su implementación en el aula',
+            hash: 't_4_5',
           },
         ],
       },
