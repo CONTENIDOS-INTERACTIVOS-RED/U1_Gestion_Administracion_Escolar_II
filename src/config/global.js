@@ -1,6 +1,6 @@
 export default {
   global: {
-    numeroUnidad: '3',
+    numeroUnidad: '1',
     tituloUnidad: 'Planes de mejoramiento',
   },
   menuPrincipal: {
@@ -82,76 +82,6 @@ export default {
             titulo:
               'Integración de las gestiones en el proceso de mejoramiento continuo',
             hash: 't_2_5',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Decreto 2247 de 1997',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Contextualización de la política educativa para la infancia en Colombia',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Estructura y principales apartados del Decreto 2247',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Condiciones organizativas del nivel preescolar',
-            hash: 't_3_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Actividades rectoras de la educación inicial',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo:
-              'Definición y fundamento pedagógico de las actividades rectoras',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo:
-              'El juego como actividad rectora: características y potencial educativo',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'El arte y la literatura como ejes de formación integral',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo:
-              'Relación entre actividades rectoras y dimensiones del desarrollo infantil',
-            hash: 't_4_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.5',
-            titulo: 'Orientaciones del MEN y su implementación en el aula',
-            hash: 't_4_5',
           },
         ],
       },

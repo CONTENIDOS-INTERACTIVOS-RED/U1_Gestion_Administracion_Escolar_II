@@ -14,7 +14,7 @@
         .bg-color-2.tarjeta.p-3.h-100(data-aos="fade-left")
           p(data-aos="fade-left") Esta unidad se enfoca en comprender a profundidad los componentes que integran un PMI, así como las distintas gestiones —directiva, académica, administrativa y comunitaria— que deben articularse para lograr una gestión eficiente y efectiva. Además, se explorarán las estrategias de autoevaluación como mecanismos clave para diagnosticar, reflexionar y tomar decisiones fundamentadas que permitan fortalecer el proyecto institucional y alcanzar los objetivos propuestos.
     
-    .bg-full-width.bg-color-3.mb-5
+    .bg-full-width.bg-color-3.mb-0
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto

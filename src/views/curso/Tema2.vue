@@ -398,6 +398,11 @@
               img(src='@/assets/curso/tema2/33.png', alt='')
 
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -477,8 +482,183 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es el propósito del Plan de Mejoramiento Institucional (PMI)?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Organizar eventos escolares',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Mejorar la calidad educativa con acciones específicas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Controlar el presupuesto de la escuela',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Evaluar a los estudiantes',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto: '¿Cuál de los siguientes NO es un componente del PMI?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Diagnóstico institucional',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Cronograma de actividades',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Menú escolar',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Mecanismos de seguimiento',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué gestión se encarga del currículo y los procesos pedagógicos dentro del PMI?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Gestión administrativa',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Gestión académica ',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Gestión comunitaria',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Gestión financiera',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Qué estrategia se utiliza para la autoevaluación institucional?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Auditorías externas',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Reuniones administrativas',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Control de gastos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Encuestas internas a docentes y estudiantes ',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué relación existe entre el Plan de Mejoramiento Institucional (PMI) y el Proyecto Educativo Institucional (PEI)?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Son documentos independientes sin relación',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'El PMI desarrolla y da seguimiento a las metas del PEI',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'El PEI es un anexo del PMI',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'El PMI solo se enfoca en infraestructura',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -487,4 +667,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
